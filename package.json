@@ -1,7 +1,7 @@
 {
   "name": "a07",
   "version": "1.0.0",
-  "description": "",
+  "description": "The game 2048 coded for COMP 426 at the University of North Carolina at Chapel Hill",
   "main": "index.js",
   "scripts": {
     "console": "node -r esm run_in_console.js"
@@ -13,5 +13,14 @@
     "esm": "^3.2.25",
     "jquery": "^3.5.1",
     "keypress": "^0.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katelyn9cline/comp426-2048.git"
+  },
+  "bugs": {
+    "url": "https://github.com/katelyn9cline/comp426-2048/issues"
+  },
+  "homepage": "https://github.com/katelyn9cline/comp426-2048#readme"
 }
