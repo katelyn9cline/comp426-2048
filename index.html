@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>2048 Katelyn Cline</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <!-- TODO (optional): Add link to bulma here -->
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    </head>
+    
+    <body style = "background-color: #ffcf75;">
+        
+        <!-- Include links to JavaScript files below -->
+        <!-- TODO: Add link to jQuery here -->
+        <script src = "node_modules/jquery/dist/jquery.js"></script>
+        <script src="engine/game.js"></script>
+        <script src="render.js" type="module"></script>
+
+        <div class = "box" style ="background-color: orange;  margin: auto; text-align: center;">
+            <h1 class = "title is-3">2048</h1>
+            <h1 class = "subtitle">Use your arrow keys to join the numbers and get to the 2048 tile!</h1>
+        </div>
+        <br>
+        <button class="button box reset" style="background-color: orange;margin: auto;"><strong>NEW GAME</strong></button>
+        <br>
+
+        <div class = "tile is-ancestor is-vertical" style="margin-top: 30 px; margin-right: 40px; margin-left: 40px; margin-bottom: 10px;">
+            <div class = "tile is-parent" style = "text-align: center;">
+                <h4 class = "tile is-child is-12 title is-4 box score" style ="background-color: orange; text-align: center">Score: 0</h4>
+            </div>
+    
+            <div class = "tile is-parent">
+                <div class = "tile is-child box 0" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF; ">0</h3></div>
+                <div class = "tile is-child box 1" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">1</h3></div>
+                <div class = "tile is-child box 2" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">2</h3></div>
+                <div class = "tile is-child box 3" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">3</h3></div>
+            </div>
+        
+            <div class = "tile is-parent">
+                <div class = "tile is-child box 4" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">4</h3></div>
+                <div class = "tile is-child box 5" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">5</h3></div>
+                <div class = "tile is-child box 6" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">6</h3></div>
+                <div class = "tile is-child box 7" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">7</h3></div>
+            </div>
+    
+            <div class = "tile is-parent">
+                <div class = "tile is-child box 8" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">8</h3></div>
+                <div class = "tile is-child box 9" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">9</h3></div>
+                <div class = "tile is-child box 10" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">10</h3></div>
+                <div class = "tile is-child box 11" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">11</h3></div>
+            </div>
+    
+            <div class = "tile is-parent">
+                <div class = "tile is-child box 12" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">12</h3></div>
+                <div class = "tile is-child box 13" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">13</h3></div>
+                <div class = "tile is-child box 14" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">14</h3></div>
+                <div class = "tile is-child box 15" style = "background-color: #8CBFFF; border: solid;"><h3 class = "title" style = "text-align: center; color: #8CBFFF;">15</h3></div>
+            </div>    
+        </div>       
+    </body>
+</html>
