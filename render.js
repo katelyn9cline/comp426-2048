@@ -31,7 +31,6 @@ export const handleLoss = function(gameState){
 }
 
 export const handleKeyPress = function(event) {
-    // event.preventDeafult();
     var key = event.keyCode;
     if (key == 37) {
         game.move("left");
