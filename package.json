@@ -8,7 +8,7 @@
     "npm": "6.14"
   },
   "scripts": {
-    "start": "./index.html"
+    "start": "index.html"
   },
   "author": "",
   "license": "ISC",
