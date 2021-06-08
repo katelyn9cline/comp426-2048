@@ -8,8 +8,8 @@
     "npm": "6.14"
   },
   "scripts": {
-    "start": "node src/index.html",
-  "build": "webpack" 
+    "start": "index.html",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -28,5 +28,4 @@
     "url": "https://github.com/katelyn9cline/comp426-2048/issues"
   },
   "homepage": "https://github.com/katelyn9cline/comp426-2048#readme"
-  
 }
