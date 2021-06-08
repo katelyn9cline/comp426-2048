@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "The game 2048 coded for COMP 426 at the University of North Carolina at Chapel Hill",
   "main": "index.js",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.14"
+  },
   "scripts": {
     "start": "node src/render.js",
   "build": "webpack" 
