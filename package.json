@@ -4,8 +4,8 @@
   "description": "The game 2048 coded for COMP 426 at the University of North Carolina at Chapel Hill",
   "main": "index.js",
   "scripts": {
-    "start": "node render.js",
-    "console": "node -r esm run_in_console.js"
+    "start": "node src/render.js",
+  "build": "webpack" 
   },
   "author": "",
   "license": "ISC",
